@@ -1,0 +1,43 @@
+{
+  "name": "bogdandorca",
+  "version": "0.1.0",
+  "description": "Portfolio and presentation page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bogdan Dorca",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^1.1.1",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-if": "*",
+    "gulp-inject": "*",
+    "gulp-jshint": "*",
+    "gulp-livereload": "*",
+    "gulp-minify-css": "*",
+    "gulp-nodemon": "*",
+    "gulp-notify": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "^2.1.0",
+    "gulp-scss": "*",
+    "gulp-strip-debug": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "jasmine-core": "*",
+    "karma": "*",
+    "karma-jasmine": "*",
+    "karma-phantomjs-launcher": "*",
+    "main-bower-files": "*",
+    "open": "*",
+    "phantomjs": "*",
+    "tiny-lr": "*",
+    "vhost": "*",
+    "yargs": "*"
+  }
+}

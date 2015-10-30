@@ -1,0 +1,23 @@
+{
+  "name": "bogdandorca",
+  "description": "Portfolio and presentation page",
+  "main": "index.js",
+  "authors": [
+    "Bogdan Dorca"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/bogdandorca/bogdandorca.github.io",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "font-awesome": "~4.4.0"
+  }
+}
