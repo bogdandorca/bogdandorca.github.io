@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  width: 100%;
+  color: $light-color;
+  padding: 10px 20px;
+}
+.header-logo {
+  float: left;
+  vertical-align: top;
+}
+.header-menu {
+  float: right;
+  vertical-align: top;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: inline-block;
+      padding: 0;
+      margin-right: 40px;
+    }
+  }
+}

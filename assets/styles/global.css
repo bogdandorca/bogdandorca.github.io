@@ -56,6 +56,24 @@ p {
 .vg-3-3 {
   height: 100%; }
 
+.vg-1-6 {
+  height: calc(100%/6); }
+
+.vg-2-6 {
+  height: calc((100%/6)*2); }
+
+.vg-3-6 {
+  height: calc((100%/6)*3); }
+
+.vg-4-6 {
+  height: calc((100%/6)*4); }
+
+.vg-5-6 {
+  height: calc((100%/6)*5); }
+
+.vg-6-6 {
+  height: 100%; }
+
 .vg-1-9 {
   height: calc(100%/9); }
 
@@ -89,22 +107,22 @@ p {
 .hg-1-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc(99%/5); }
+  width: calc(98%/5); }
 
 .hg-2-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((99%/5)*2); }
+  width: calc((98%/5)*2); }
 
 .hg-3-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((99%/5)*3); }
+  width: calc((98%/5)*3); }
 
 .hg-4-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((99%/5)*4); }
+  width: calc((98%/5)*4); }
 
 .hg-5-5 {
   display: inline-block;
@@ -187,6 +205,28 @@ p {
 /**
 * Partials
 **/
+.header {
+  position: fixed;
+  width: 100%;
+  color: #FFF;
+  padding: 10px 20px; }
+
+.header-logo {
+  float: left;
+  vertical-align: top; }
+
+.header-menu {
+  float: right;
+  vertical-align: top; }
+  .header-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .header-menu ul li {
+      display: inline-block;
+      padding: 0;
+      margin-right: 40px; }
+
 .profile-photo {
   margin-top: 20px;
   border-radius: 50%; }
@@ -215,3 +255,59 @@ p {
   font-family: "Merriweather Sans", sans-serif;
   margin-top: 10px;
   text-align: justify; }
+
+.skill-logo {
+  max-height: 100%; }
+
+.skill-description {
+  margin-top: 10px;
+  font-weight: normal; }
+
+.contact-info-element {
+  float: left;
+  text-align: left; }
+  .contact-info-element .fa {
+    font-size: 38.4px;
+    vertical-align: baseline;
+    margin-right: 15px;
+    color: #2294CC; }
+  .contact-info-element h2 {
+    display: inline-block; }
+    .contact-info-element h2 a:hover {
+      text-decoration: underline; }
+
+.footer {
+  background-color: #222;
+  color: #FFF; }
+
+.copyright {
+  width: 100%;
+  background-color: #222;
+  color: #FFF;
+  padding-bottom: 10px; }
+
+.footer-logo {
+  height: 80%;
+  margin-top: 5%; }
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .footer-list.content li {
+    text-align: left; }
+  .footer-list.social li {
+    text-align: center; }
+  .footer-list.partners li {
+    text-align: right; }
+  .footer-list li {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px; }
+  .footer-list .footer-head-list {
+    font-weight: normal;
+    margin-bottom: 10px; }
+  .footer-list a {
+    color: #FFF; }
+    .footer-list a:hover {
+      text-decoration: none; }

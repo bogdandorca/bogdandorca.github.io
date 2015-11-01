@@ -17,11 +17,12 @@
     <base href="/"></head>
 </head>
 <body ng-app="app">
+    <div ng-include="'/partials/header.partial.html'"></div>
 	<!-- Partials -->
 	<div ng-include="'/partials/home.partial.html'"></div>
 	<div ng-include="'/partials/about.partial.html'"></div>
-	<!--<div ng-include="'/partials/skills.partial.html'"></div>
-	<div ng-include="'/partials/contact.partial.html'"></div>-->
+	<div ng-include="'/partials/skills.partial.html'"></div>
+	<div ng-include="'/partials/contact.partial.html'"></div>
 
 	<!-- bower:js -->
 	<script src="/vendor/angular/angular.js"></script>

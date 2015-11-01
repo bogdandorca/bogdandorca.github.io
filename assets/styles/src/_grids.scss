@@ -11,6 +11,25 @@
 .vg-3-3 {
   height: 100%;
 }
+// Vertical grid of 6
+.vg-1-6 {
+  height: calc(100%/6);
+}
+.vg-2-6 {
+  height: calc((100%/6)*2);
+}
+.vg-3-6 {
+  height: calc((100%/6)*3);
+}
+.vg-4-6 {
+  height: calc((100%/6)*4);
+}
+.vg-5-6 {
+  height: calc((100%/6)*5);
+}
+.vg-6-6 {
+  height: 100%;
+}
 // Vertical grid of 9
 .vg-1-9 {
   height: calc(100%/9);
@@ -46,22 +65,22 @@
 .hg-1-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc(99%/5);
+  width: calc(98%/5);
 }
 .hg-2-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((99%/5)*2);
+  width: calc((98%/5)*2);
 }
 .hg-3-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((99%/5)*3);
+  width: calc((98%/5)*3);
 }
 .hg-4-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((99%/5)*4);
+  width: calc((98%/5)*4);
 }
 .hg-5-5 {
   display: inline-block;
