@@ -1280,7 +1280,7 @@ function convertTimezoneToLocal(date, timezone, reverse) {
 function startingTag(element) {
   element = jqLite(element).clone();
   try {
-    // turns out IE does not let you set .html() on elements which
+    // turns out IE does not let you set skills.partial.html() on elements which
     // are not allowed to have children. So we just ignore it.
     element.empty();
   } catch (e) {}

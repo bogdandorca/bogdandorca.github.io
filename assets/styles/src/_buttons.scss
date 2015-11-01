@@ -1,0 +1,12 @@
+.btn {
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $dark-color;
+  padding: 7px 15px;
+  color: $dark-color;
+}
+.btn-light {
+  border-color: $light-color;
+  color: $light-color;
+}

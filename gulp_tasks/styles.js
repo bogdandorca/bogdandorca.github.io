@@ -5,7 +5,9 @@ var gulp = require('gulp'),
     chalk = require('chalk'),
     argv = require('yargs').argv, 
     sass = require('gulp-sass'),
-    gulpif = require('gulp-if');
+    gulpif = require('gulp-if'),
+    postcss = require('gulp-postcss'),
+    lost = require('lost');
     
     var parseStylesheets = function(){
         return sass().on('error', sass.logError);
@@ -23,6 +25,9 @@ var styles = function(){
         .pipe(autoprefixer({
             browsers: ['last 2 versions']
         }))
+        .pipe(postcss([
+            lost()
+        ]))
         .pipe(gulpif(argv.production, minifyCss()))
         .pipe(gulpif(argv.production, rename(filename)))
         .pipe(gulp.dest('./assets/styles/'));

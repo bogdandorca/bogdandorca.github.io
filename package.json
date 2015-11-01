@@ -33,6 +33,7 @@
     "karma": "*",
     "karma-jasmine": "*",
     "karma-phantomjs-launcher": "*",
+    "lost": "^6.6.2",
     "main-bower-files": "*",
     "open": "*",
     "phantomjs": "*",

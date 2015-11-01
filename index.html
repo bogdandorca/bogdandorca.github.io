@@ -5,19 +5,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>Bogdan Dorca</title>
-	
+
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
 	<!-- bower:css -->
 	<!-- endinject -->
 	
 	<!-- inject:css -->
 	<link rel="stylesheet" href="/assets/styles/global.css">
 	<!-- endinject -->
+
+    <base href="/"></head>
 </head>
 <body ng-app="app">
-	<h1>In progress...</h1>
-	
-	<ng-include="partials/home.partial.html"></ng-include>
-	
+	<!-- Partials -->
+	<div ng-include="'/partials/home.partial.html'"></div>
+	<div ng-include="'/partials/about.partial.html'"></div>
+	<!--<div ng-include="'/partials/skills.partial.html'"></div>
+	<div ng-include="'/partials/contact.partial.html'"></div>-->
+
 	<!-- bower:js -->
 	<script src="/vendor/angular/angular.js"></script>
 	<script src="/vendor/angular-route/angular-route.js"></script>

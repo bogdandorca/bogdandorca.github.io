@@ -1,0 +1,36 @@
+/**
+* Common partial traits
+**/
+.partial {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/**
+* Partial types
+**/
+.main-partial {
+  background-color: $main-color;
+  color: $light-color;
+  a {
+    color: $light-color;
+  }
+}
+.secondary-partial {
+  background-color: $light-color;
+  color: $dark-color;
+}
+/**
+* Partial elements
+**/
+.page-separator {
+  width: 100%;
+  height: 10px;
+  background-color: $main-color;
+}
+.partial-body {
+  width: calc((100%/9)*5);
+  margin: 0 auto;
+  padding-top: 10px;
+}

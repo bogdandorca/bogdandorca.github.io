@@ -1,9 +1,28 @@
+/**
+* Theme
+**/
 @import "src/variables.scss";
+@import "src/standardize.scss";
 
-body {
-	font-size: 24px;
-}
+/**
+* Infrastructure
+**/
+@import 'src/typography.scss';
+@import 'src/grids.scss';
+@import 'src/helper.scss';
 
-h1 {
-	font-size: 50px;
-}
+/**
+* Template
+**/
+@import 'src/partials.scss';
+
+/**
+* Elements
+**/
+@import 'src/buttons.scss';
+
+/**
+* Partials
+**/
+@import 'src/home.scss';
+@import 'src/about.scss';

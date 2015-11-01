@@ -1,0 +1,28 @@
+.about-category-icon {
+  width: 70px;
+  height: 70px;
+  background-color: $main-color;
+  color: $light-color;
+  border-radius: 2px;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+  .fa {
+    font-size: 70px;
+  }
+  &.about-category-icon-university {
+    .fa {
+      font-size: 65px;
+    }
+  }
+}
+.about-category-info {
+  .category-title {
+    font-weight: normal;
+  }
+  .category-description {
+    font-family: $secondary-font-family;
+    margin-top: 10px;
+    text-align: justify;
+  }
+}
