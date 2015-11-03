@@ -1,3 +1,8 @@
+.about-category-icon-wrapper {
+	@media screen and (max-width: 670px){
+		display: none;
+	}
+}
 .about-category-icon {
   width: 70px;
   height: 70px;
@@ -15,7 +20,7 @@
       font-size: 65px;
     }
   }
-  @media screen and (max-width: 570px){
+  @media screen and (max-width: 670px){
     display: none;
   }
 }
@@ -27,5 +32,9 @@
     font-family: $secondary-font-family;
     margin-top: 10px;
     text-align: justify;
+  }
+  @media screen and (max-width: 900px){
+	padding: 0 5%;
+    box-sizing: border-box;
   }
 }
