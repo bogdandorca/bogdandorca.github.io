@@ -221,7 +221,7 @@ p {
 @media screen and (max-width: 900px) {
   .partial-title-vertical-grid {
     height: auto;
-    margin-bottom: 10%; } }
+    margin-bottom: 15%; } }
 
 /**
 * Elements
@@ -313,7 +313,8 @@ p {
 
 @media screen and (max-width: 670px) {
   .about-category-info {
-    text-align: center; } }
+    text-align: center;
+    width: 100%; } }
 
 .skill {
   box-sizing: border-box;
@@ -375,12 +376,16 @@ p {
   color: #FFF;
   padding-bottom: 10px; }
 
-.footer-logo {
+.footer-logo-wrapper .footer-logo {
   height: 80%;
   margin-top: 5%; }
   @media screen and (max-width: 900px) {
-    .footer-logo {
+    .footer-logo-wrapper .footer-logo {
       margin: 0 auto; } }
+
+@media screen and (max-width: 670px) {
+  .footer-logo-wrapper {
+    margin-left: calc((95%/5)*2); } }
 
 .footer-list {
   list-style: none;
