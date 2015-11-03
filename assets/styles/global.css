@@ -219,13 +219,9 @@ p {
       width: 100%; } }
 
 @media screen and (max-width: 900px) {
-  .partial-title-vertical-grid {
+  .partial-title-vertical-grid.vg-2-5 {
     height: auto;
     margin-bottom: 10%; } }
-
-@media screen and (max-width: 900px) {
-  .partial-title-vertical-grid.vg-2-5 {
-    height: 20%; } }
 
 /**
 * Elements
