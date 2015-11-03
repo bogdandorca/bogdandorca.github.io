@@ -242,7 +242,6 @@ p {
 * Partials
 **/
 .header {
-  position: fixed;
   width: 100%;
   color: #FFF;
   padding: 10px 20px; }
