@@ -11,7 +11,11 @@
 /**
 * Colors
 **/
+html {
+  height: 100%; }
+
 body {
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: "Lato", sans-serif;
@@ -107,27 +111,58 @@ p {
 .hg-1-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc(98%/5); }
+  width: calc(95%/5); }
+  @media screen and (max-width: 670px) {
+    .hg-1-5 {
+      width: 100%; } }
 
 .hg-2-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((98%/5)*2); }
+  width: calc((95%/5)*2); }
+  @media screen and (max-width: 670px) {
+    .hg-2-5 {
+      width: 100%;
+      display: block; } }
 
 .hg-3-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((98%/5)*3); }
+  width: calc((95%/5)*3); }
+  @media screen and (max-width: 670px) {
+    .hg-3-5 {
+      width: 100%;
+      display: block; } }
 
 .hg-4-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((98%/5)*4); }
+  width: calc((95%/5)*4); }
+  @media screen and (max-width: 670px) {
+    .hg-4-5 {
+      width: 100%;
+      display: block; } }
 
 .hg-5-5 {
   display: inline-block;
   vertical-align: top;
   width: 100%; }
+  @media screen and (max-width: 670px) {
+    .hg-5-5 {
+      width: 100%;
+      display: block; } }
+
+.hg-break-1-5 {
+  margin-left: calc(95%/5); }
+  @media screen and (max-width: 670px) {
+    .hg-break-1-5 {
+      margin-left: 0; } }
+
+.hg-break-2-5 {
+  margin-left: calc((95%/5)*2); }
+  @media screen and (max-width: 670px) {
+    .hg-break-2-5 {
+      margin-left: 0; } }
 
 .align-left {
   text-align: left; }
@@ -156,6 +191,9 @@ p {
 /**
 * Common partial traits
 **/
+.partial-wrapper {
+  height: 100%; }
+
 .partial {
   width: 100%;
   height: 100%;
@@ -184,8 +222,15 @@ p {
 
 .partial-body {
   width: calc((100%/9)*5);
+  height: 100%;
   margin: 0 auto;
   padding-top: 10px; }
+  @media screen and (max-width: 1180px) {
+    .partial-body {
+      width: calc((100%/9)*7); } }
+  @media screen and (max-width: 900px) {
+    .partial-body {
+      width: 100%; } }
 
 /**
 * Elements
@@ -247,6 +292,9 @@ p {
     font-size: 70px; }
   .about-category-icon.about-category-icon-university .fa {
     font-size: 65px; }
+  @media screen and (max-width: 570px) {
+    .about-category-icon {
+      display: none; } }
 
 .about-category-info .category-title {
   font-weight: normal; }
@@ -257,7 +305,9 @@ p {
   text-align: justify; }
 
 .skill-logo {
-  max-height: 100%; }
+  height: auto;
+  max-width: 100%;
+  display: block; }
 
 .skill-description {
   margin-top: 10px;

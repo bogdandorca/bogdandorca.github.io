@@ -15,6 +15,9 @@
       font-size: 65px;
     }
   }
+  @media screen and (max-width: 570px){
+    display: none;
+  }
 }
 .about-category-info {
   .category-title {

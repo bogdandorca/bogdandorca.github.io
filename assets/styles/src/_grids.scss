@@ -65,25 +65,56 @@
 .hg-1-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc(98%/5);
+  width: calc(95%/5);
+  @media screen and (max-width: 670px){
+    width: 100%;
+  }
 }
 .hg-2-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((98%/5)*2);
+  width: calc((95%/5)*2);
+  @media screen and (max-width: 670px){
+    width: 100%;
+    display: block;
+  }
 }
 .hg-3-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((98%/5)*3);
+  width: calc((95%/5)*3);
+  @media screen and (max-width: 670px){
+    width: 100%;
+    display: block;
+  }
 }
 .hg-4-5 {
   display: inline-block;
   vertical-align: top;
-  width: calc((98%/5)*4);
+  width: calc((95%/5)*4);
+  @media screen and (max-width: 670px){
+    width: 100%;
+    display: block;
+  }
 }
 .hg-5-5 {
   display: inline-block;
   vertical-align: top;
   width: 100%;
+  @media screen and (max-width: 670px){
+    width: 100%;
+    display: block;
+  }
+}
+.hg-break-1-5 {
+  margin-left: calc(95%/5);
+  @media screen and (max-width: 670px){
+    margin-left: 0;
+  }
+}
+.hg-break-2-5 {
+  margin-left: calc((95%/5)*2);
+  @media screen and (max-width: 670px){
+    margin-left: 0;
+  }
 }

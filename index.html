@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -19,10 +20,10 @@
 <body ng-app="app">
     <div ng-include="'/partials/header.partial.html'"></div>
 	<!-- Partials -->
-	<div ng-include="'/partials/home.partial.html'"></div>
-	<div ng-include="'/partials/about.partial.html'"></div>
-	<div ng-include="'/partials/skills.partial.html'"></div>
-	<div ng-include="'/partials/contact.partial.html'"></div>
+	<div class="partial-wrapper" ng-include="'/partials/home.partial.html'"></div>
+	<div class="partial-wrapper" ng-include="'/partials/about.partial.html'"></div>
+	<div class="partial-wrapper" ng-include="'/partials/skills.partial.html'"></div>
+	<div class="partial-wrapper" ng-include="'/partials/contact.partial.html'"></div>
 
 	<!-- bower:js -->
 	<script src="/vendor/angular/angular.js"></script>
