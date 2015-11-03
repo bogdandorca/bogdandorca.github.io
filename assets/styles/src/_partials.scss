@@ -45,7 +45,13 @@
   }
 }
 .partial-title-vertical-grid {
-	&.vg-2-5 {
+	&.vg-2-6 {
+		@media screen and (max-width: 900px){
+			height: auto;
+			margin-bottom: 10%;
+		}
+	}
+	&.vg-2-9 {
 		@media screen and (max-width: 900px){
 			height: auto;
 			margin-bottom: 10%;

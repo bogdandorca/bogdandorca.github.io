@@ -219,7 +219,12 @@ p {
       width: 100%; } }
 
 @media screen and (max-width: 900px) {
-  .partial-title-vertical-grid.vg-2-5 {
+  .partial-title-vertical-grid.vg-2-6 {
+    height: auto;
+    margin-bottom: 10%; } }
+
+@media screen and (max-width: 900px) {
+  .partial-title-vertical-grid.vg-2-9 {
     height: auto;
     margin-bottom: 10%; } }
 
