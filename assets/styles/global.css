@@ -221,7 +221,7 @@ p {
 @media screen and (max-width: 900px) {
   .partial-title-vertical-grid {
     height: auto;
-    margin-bottom: 2%; } }
+    margin-bottom: 10%; } }
 
 @media screen and (max-width: 900px) {
   .partial-title-vertical-grid.vg-2-5 {
@@ -306,7 +306,8 @@ p {
 @media screen and (max-width: 900px) {
   .about-category-info {
     padding: 0 5%;
-    box-sizing: border-box; } }
+    box-sizing: border-box;
+    text-align: center; } }
 
 .skill {
   box-sizing: border-box;
@@ -332,6 +333,9 @@ p {
 .skill-description {
   margin-top: 10px;
   font-weight: normal; }
+
+.contact-vertical-grid {
+  height: auto; }
 
 .contact-info-element {
   float: left;
