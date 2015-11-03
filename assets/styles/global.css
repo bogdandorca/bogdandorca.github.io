@@ -50,6 +50,12 @@ h2 {
   font-size: 25.6px; }
   h2.title {
     font-size: 38.4px; }
+    @media screen and (max-width: 670px) {
+      h2.title {
+        font-size: 25.6px; } }
+  @media screen and (max-width: 670px) {
+    h2 {
+      font-size: 25.6px; } }
 
 p {
   font-size: 16px; }
@@ -248,9 +254,13 @@ p {
 * Partials
 **/
 .header {
+  position: absolute;
   width: 100%;
   color: #FFF;
   padding: 10px 20px; }
+  @media screen and (max-width: 900px) {
+    .header {
+      display: none; } }
 
 .header-logo {
   float: left;
@@ -271,9 +281,16 @@ p {
 .profile-photo {
   margin-top: 20px;
   border-radius: 50%; }
+  @media screen and (max-width: 670px) {
+    .profile-photo {
+      max-width: 100px; } }
 
 .contact-me-button {
   margin-top: 25px; }
+
+@media screen and (max-width: 670px) {
+  .home-vertical-grid {
+    padding: 0 2%; } }
 
 .about-category {
   text-align: left; }

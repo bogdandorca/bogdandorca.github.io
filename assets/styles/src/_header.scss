@@ -3,6 +3,9 @@
   width: 100%;
   color: $light-color;
   padding: 10px 20px;
+  @media screen and (max-width: 900px){
+	display: none;
+  }
 }
 .header-logo {
   float: left;

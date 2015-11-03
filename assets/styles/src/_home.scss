@@ -1,7 +1,16 @@
 .profile-photo {
   margin-top: 20px;
   border-radius: 50%;
+  @media screen and (max-width: 670px){
+	max-width: 100px;
+  }
 }
 .contact-me-button {
   margin-top: 25px;
+}
+
+.home-vertical-grid {
+	@media screen and (max-width: 670px){
+		padding: 0 2%;
+	}
 }

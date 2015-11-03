@@ -15,7 +15,7 @@ h2 {
   &.title {
     font-size: $heading-font-size;
 	@media screen and (max-width: 670px){
-		font-size: ($sub-heading-font-size*/3)*2;
+		font-size: ($heading-font-size/3)*2;
 	}
   }
   @media screen and (max-width: 670px){
