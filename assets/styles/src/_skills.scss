@@ -1,7 +1,25 @@
+.skill {
+	box-sizing: border-box;
+	padding: 20px;
+	@media screen and (max-width: 900px){
+		text-align: center;
+		padding: 0;
+	}
+	&.hg-break-1-5 {
+		@media screen and (max-width: 900px){
+			margin-left: 10%;
+		}
+	}
+}
 .skill-logo {
-  height: auto;
-  max-width: 100%;
-  display: block;
+	height: auto;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	@media screen and (max-width: 900px){
+		max-width: 70%;
+	}
 }
 .skill-description {
   margin-top: 10px;

@@ -232,6 +232,11 @@ p {
     .partial-body {
       width: 100%; } }
 
+@media screen and (max-width: 900px) {
+  .partial-title-vertical-grid {
+    height: auto;
+    margin-bottom: 2%; } }
+
 /**
 * Elements
 **/
@@ -304,10 +309,26 @@ p {
   margin-top: 10px;
   text-align: justify; }
 
+.skill {
+  box-sizing: border-box;
+  padding: 20px; }
+  @media screen and (max-width: 900px) {
+    .skill {
+      text-align: center;
+      padding: 0; } }
+  @media screen and (max-width: 900px) {
+    .skill.hg-break-1-5 {
+      margin-left: 10%; } }
+
 .skill-logo {
   height: auto;
   max-width: 100%;
-  display: block; }
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  @media screen and (max-width: 900px) {
+    .skill-logo {
+      max-width: 70%; } }
 
 .skill-description {
   margin-top: 10px;
