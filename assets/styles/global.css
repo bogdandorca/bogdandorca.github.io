@@ -274,6 +274,12 @@ p {
 .contact-me-button {
   margin-top: 25px; }
 
+.about-category {
+  text-align: left; }
+  @media screen and (max-width: 670px) {
+    .about-category {
+      text-align: center; } }
+
 @media screen and (max-width: 670px) {
   .about-category-icon-wrapper {
     display: none; } }
@@ -306,7 +312,10 @@ p {
 @media screen and (max-width: 900px) {
   .about-category-info {
     padding: 0 5%;
-    box-sizing: border-box;
+    box-sizing: border-box; } }
+
+@media screen and (max-width: 670px) {
+  .about-category-info {
     text-align: center; } }
 
 .skill {
