@@ -275,7 +275,9 @@ p {
   @media screen and (max-width: 670px) {
     .about-category {
       text-align: center;
-      width: 100%; } }
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px; } }
 
 @media screen and (max-width: 670px) {
   .about-category-icon-wrapper {
