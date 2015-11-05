@@ -3,6 +3,7 @@
   width: 100%;
   color: $light-color;
   padding: 10px 20px;
+  box-sizing: border-box;
   @media screen and (max-width: 900px){
 	display: none;
   }

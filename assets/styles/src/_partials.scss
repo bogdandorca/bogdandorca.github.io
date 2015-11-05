@@ -37,6 +37,7 @@
   height: 100%;
   margin: 0 auto;
   padding-top: 10px;
+  box-sizing: border-box;
   @media screen and (max-width: 1180px){
     width: calc((100%/9)*7);
   }

@@ -14,6 +14,18 @@ $heading-font-size: $body-font-size * 2.4;
 $sub-heading-font-size: $body-font-size * 1.6;
 $sub-text-font-size: $body-font-size * 0.8;
 
+// Screen width < 900px
+$body-font-size-medium: 14px;
+$heading-font-size-medium: $body-font-size-medium * 2.4;
+$sub-heading-font-size-medium: $body-font-size-medium * 1.6;
+$sub-text-font-size-medium: $body-font-size-medium * 0.8;
+
+// Screen width < 360px
+$body-font-size-min: 12px;
+$heading-font-size-min: $body-font-size-min * 2.4;
+$sub-heading-font-size-min: $body-font-size-min * 1.6;
+$sub-text-font-size-min: $body-font-size-min * 0.8;
+
 /**
 * Colors
 **/

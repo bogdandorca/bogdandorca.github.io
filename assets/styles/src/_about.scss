@@ -6,6 +6,9 @@
 		height: auto;
 		margin-bottom: 15px;
 	}
+    @media screen and (max-width: 670px) and (min-height: 900px){
+      margin-bottom: 100px;
+    }
 }
 .about-category-icon-wrapper {
 	@media screen and (max-width: 670px){
@@ -36,11 +39,23 @@
 .about-category-info {
   .category-title {
     font-weight: normal;
+    @media screen and (max-width: 900px) {
+      font-size: $sub-heading-font-size-medium;
+    }
+    @media screen and (max-width: 360px) {
+      font-size: $sub-heading-font-size-min;
+    }
   }
   .category-description {
     font-family: $secondary-font-family;
     margin-top: 10px;
     text-align: justify;
+    @media screen and (max-width: 900px){
+      font-size: $body-font-size-medium;
+    }
+    @media screen and (max-width: 360px){
+      font-size: $body-font-size-min;
+    }
   }
   @media screen and (max-width: 900px){
 	padding: 0 5%;
