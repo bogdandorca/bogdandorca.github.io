@@ -18,16 +18,14 @@
     <base href="/"></head>
 </head>
 <body ng-app="app">
-    <div ng-include="'/partials/header.partial.html'"></div>
+    <app-header></app-header>
 	<!-- Partials -->
-	<div class="partial-wrapper" ng-include="'/partials/home.partial.html'"></div>
-	<div class="partial-wrapper" ng-include="'/partials/about.partial.html'"></div>
-	<div class="partial-wrapper" ng-include="'/partials/skills.partial.html'"></div>
-	<div class="partial-wrapper" ng-include="'/partials/contact.partial.html'"></div>
+	<div class="partial-wrapper" ng-view></div>
 
 	<!-- bower:js -->
 	<script src="/vendor/angular/angular.js"></script>
 	<script src="/vendor/angular-route/angular-route.js"></script>
+	<script src="/vendor/angular-animate/angular-animate.js"></script>
 	<!-- endinject -->
 	
 	<!-- inject:js -->

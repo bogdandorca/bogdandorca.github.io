@@ -1,19 +1,19 @@
-<div id="home" class="partial main-partial" ng-controller="HomeCtrl">
+<div id="home" class="partial main-partial">
 	<div class="partial-body">
         <div class="vg-1-3">
             <div class="vg-1-3"></div>
             <div class="home-vertical-grid vg-1-3">
                 <div class="helper-text-to-bottom-h1"></div>
-                <h2 class="title">Hello, my name is</h2>
+                <h2 class="title">{{content.salutation}}</h2>
             </div>
             <div class="home-vertical-grid vg-1-3">
-                <h1 class="title">Bogdan Dorca</h1>
+                <h1 class="title">{{content.name}}</h1>
             </div>
         </div>
         <div class="vg-1-3">
             <div class="home-vertical-grid vg-1-3">
                 <div class="helper-text-to-bottom-h2"></div>
-                <h2>I am a Web Developer</h2>
+                <h2>{{content.titleLabel}} {{content.title}}</h2>
             </div>
             <div class="home-vertical-grid vg-2-3">
                 <img class="profile-photo" src="/assets/images/profile.png">
@@ -22,8 +22,8 @@
         <div class="vg-1-3">
             <div class="vg-1-3"></div>
             <div class="home-vertical-grid vg-2-3">
-                <p>Scroll Down if you want to find out more about what I do.</p>
-                <a href="#contact" class="btn btn-light contact-me-button">Contact me</a>
+                <p>{{content.continueMessage}}</p>
+                <a href="/contact" class="btn btn-light contact-me-button">{{content.contactMeButtonText}}</a>
             </div>
         </div>
 	</div>

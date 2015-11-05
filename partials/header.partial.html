@@ -1,13 +1,13 @@
-<div id="header" class="header">
+<div id="header" class="header" ng-class="{'light-theme': isHome}">
     <div class="header-logo">
-        <img src="/assets/images/logo_small_white.png">
+        <app-logo></app-logo>
     </div>
     <div class="header-menu">
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Contact</li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/skills">Skills</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </div>
 </div>

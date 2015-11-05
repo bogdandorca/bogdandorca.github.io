@@ -6,7 +6,7 @@
 		margin: 0;
 	}
 	@media screen and (max-width: 900px){
-		padding-bottom: 35%;
+		padding-bottom: 5%;
 	}
 }
 .skill {
@@ -20,6 +20,11 @@
 		width: 30%;
 		height: 25%;
 		padding: 0;
+	}
+	@media screen and (max-width: 670px){
+		width: 100%;
+		display: block;
+      margin-bottom: 30px;
 	}
 }
 .skill-logo {

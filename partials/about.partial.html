@@ -1,47 +1,19 @@
-<div id="about" class="partial secondary-partial" ng-controller="HomeCtrl">
+<div id="about" class="partial secondary-partial">
     <div class="partial-body">
         <div class="partial-title-vertical-grid vg-2-9">
-            <h2 class="title">A few things about myself</h2>
+            <h2 class="title">{{content.pageTitle}}</h2>
         </div>
 
-        <div class="about-category vg-2-9">
+        <div class="about-category vg-2-9" ng-repeat='category in content.categories'>
             <div class="about-category-icon-wrapper hg-1-5">
                 <div class="about-category-icon">
-                    <i class="fa fa-clock-o"></i>
+                    <i class="fa" ng-class="category.iconClass"></i>
                 </div>
             </div>
             <div class="about-category-info hg-4-5">
-                <h2 class="category-title">Experience</h2>
+                <h2 class="category-title">{{category.title}}</h2>
                 <p class="category-description">
-                    I have been working as a web developer for the past 2 years. During this time I have worked with various companies, while also participating in collaborations, and taking on freelance projects whenever opportuity showed. I invested my free time in personal projects, aiming to develop my skill set in as many areas as I could. Many of said projects are available at GitHub.
-                </p>
-            </div>
-        </div>
-
-        <div class="about-category vg-2-9">
-            <div class="about-category-icon-wrapper hg-1-5">
-                <div class="about-category-icon">
-                    <i class="fa fa-bolt"></i>
-                </div>
-            </div>
-            <div class="about-category-info hg-4-5">
-                <h2 class="category-title">Motivation</h2>
-                <p class="category-description">
-                    I seek new challenges for myself in everything I do, always setting my expectation of both myslef and my work higher. My goal is to give the best of me, no matter the project I'm working on, and I will not set for anything less than perfect. Everything has to run smoothly and then I shall declare myself satysfied with my work.
-                </p>
-            </div>
-        </div>
-
-        <div class="about-category vg-2-9">
-            <div class="about-category-icon-wrapper hg-1-5">
-                <div class="about-category-icon about-category-icon-university">
-                    <i class="fa fa-university"></i>
-                </div>
-            </div>
-            <div class="about-category-info hg-4-5">
-                <h2 class="category-title">Education</h2>
-                <p class="category-description">
-                    Currently, I am studying in Cluj-Napoca, Romania, at Faculty of Economics and Business Administration (Babes-Bolyai University), in the IT Economics department. Here I have aquired knowledge in both programming technologies and the economic/business fields of activity.
+                    {{category.description}}
                 </p>
             </div>
         </div>

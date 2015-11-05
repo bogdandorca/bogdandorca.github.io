@@ -1,16 +1,43 @@
 .header {
   position: absolute;
+  z-index: 10;
   width: 100%;
-  color: $light-color;
+  color: $dark-color;
   padding: 10px 20px;
   box-sizing: border-box;
+  height: 50px;
   @media screen and (max-width: 900px){
 	display: none;
+  }
+  &.light-theme {
+    color: $light-color;
+    .header-logo {
+      svg {
+        fill: $light-color;
+      }
+    }
+    .header-menu {
+      a {
+        color: $light-color;
+      }
+    }
   }
 }
 .header-logo {
   float: left;
   vertical-align: top;
+  height: 100%;
+  svg {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 90%;
+    fill: $dark-color;
+    transition: fill .2s ease-in;
+  }
 }
 .header-menu {
   float: right;
@@ -23,6 +50,13 @@
       display: inline-block;
       padding: 0;
       margin-right: 40px;
+    }
+  }
+  a {
+    color: $dark-color;
+    transition: color .2s ease-in;
+    &:hover {
+      text-decoration: underline;
     }
   }
 }
