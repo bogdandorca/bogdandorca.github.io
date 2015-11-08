@@ -50,6 +50,9 @@
     font-family: $secondary-font-family;
     margin-top: 10px;
     text-align: justify;
+    @media screen and (max-width: 1200px){
+      font-size: $body-font-size-medium;
+    }
     @media screen and (max-width: 900px){
       font-size: $body-font-size-medium;
     }
