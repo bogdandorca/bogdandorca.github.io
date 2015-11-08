@@ -200,22 +200,26 @@ p {
   @media screen and (max-width: 670px) {
     .partial-wrapper.secondary {
       height: auto; } }
-
-.partial-wrapper.ng-enter, .slide.ng-leave {
-  transition: all 0.5s ease-in;
-  position: relative; }
-
-.partial-wrapper.ng-enter {
-  top: 200%; }
-
-.partial-wrapper.ng-enter-active {
-  top: 0; }
-
-.partial-wrapper.ng-leave {
-  top: 0; }
-
-.partial-wrapper.ng-leave.ng-leave-active {
-  top: -1000px; }
+  .partial-wrapper.ng-enter, .partial-wrapper.ng-leave {
+    transition: all 0.5s ease-in;
+    position: absolute;
+    width: 100%; }
+  .partial-wrapper.next-page.ng-enter {
+    top: 100%; }
+  .partial-wrapper.next-page.ng-enter-active {
+    top: 0; }
+  .partial-wrapper.next-page.ng-leave {
+    top: 0; }
+  .partial-wrapper.next-page.ng-leave-active {
+    top: -100%; }
+  .partial-wrapper.prev-page.ng-enter {
+    top: -100%; }
+  .partial-wrapper.prev-page.ng-enter-active {
+    top: 0; }
+  .partial-wrapper.prev-page.ng-leave {
+    top: 0; }
+  .partial-wrapper.prev-page.ng-leave-active {
+    top: 100%; }
 
 .partial {
   width: 100%;
