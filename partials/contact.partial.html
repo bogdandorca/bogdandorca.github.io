@@ -2,36 +2,32 @@
     <div class="contact vg-6-9">
         <div class="partial-body">
             <div class="partial-title-vertical-grid vg-2-6">
-                <h2 class="title">Get in touch</h2>
+                <h2 class="title">{{content.pageTitle}}</h2>
             </div>
             <div class="contact-vertical-grid vg-1-6">
                 <div class="contact-info-element hg-3-5">
-                    <i class="fa fa-home"></i>
-                    <h2>Cluj-Napoca, Romania</h2>
+                    <i class="fa" ng-class="content.contactInfo[0].icon"></i>
+                    <h2>{{content.contactInfo[0].info}}</h2>
                 </div>
                 <div class="contact-info-element hg-2-5">
-                    <i class="fa fa-mobile"></i>
-                    <h2>+40 741 655 917</h2>
+                    <i class="fa" ng-class="content.contactInfo[1].icon"></i>
+                    <h2>{{content.contactInfo[1].info}}</h2>
                 </div>
             </div>
             <div class="contact-vertical-grid vg-1-6">
                 <div class="contact-info-element hg-3-5">
-                    <i class="fa fa-envelope"></i>
-                    <h2>bogdandorca@gmail.com</h2>
+                    <i class="fa" ng-class="content.contactInfo[2].icon"></i>
+                    <h2>{{content.contactInfo[2].info}}</h2>
                 </div>
                 <div class="contact-info-element hg-2-5">
-                    <i class="fa fa-linkedin"></i>
-                    <h2>
-                        <a target="_" href="http://ro.linkedin.com/in/bogdandorca">LinkedIn</a>
-                    </h2>
+                    <i class="fa" ng-class="content.contactInfo[3].icon"></i>
+                    <h2 ng-bind-html="content.contactInfo[3].info"></h2>
                 </div>
             </div>
             <div class="contact-vertical-grid vg-1-6">
                 <div class="contact-info-element hg-3-5">
-                    <i class="fa fa-github"></i>
-                    <h2>
-                        <a target="_" href="http://github.com/bogdandorca">GitHub</a>
-                    </h2>
+                    <i class="fa" ng-class="content.contactInfo[4].icon"></i>
+                    <h2 ng-bind-html="content.contactInfo[4].info"></h2>
                 </div>
             </div>
         </div>
@@ -40,7 +36,9 @@
         <div class="partial-body">
             <div class="footer-logo-vertical-grid vg-1-3">
                 <div class="footer-logo-wrapper hg-1-5 hg-break-2-5">
-                    <img class="footer-logo" src="/assets/images/logo.png">
+                    <div class="footer-logo">
+                        <app-logo></app-logo>
+                    </div>
                 </div>
                 <div class="hg-2-5"></div>
             </div>

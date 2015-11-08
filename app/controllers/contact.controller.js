@@ -1,4 +1,4 @@
-angular.module('app').controller('ContactCtrl', function($scope){
+angular.module('app').controller('ContactCtrl', function($scope, $sce){
     $scope.content = {
         pageTitle: 'Get in touch',
         contactInfo: [
@@ -15,11 +15,11 @@ angular.module('app').controller('ContactCtrl', function($scope){
                 icon: 'fa-envelope'
             },
             {
-                info: '<a target="_" href="http://ro.linkedin.com/in/bogdandorca">LinkedIn</a>',
+                info: $sce.trustAsHtml('<a target="_" href="http://ro.linkedin.com/in/bogdandorca">LinkedIn</a>'),
                 icon: 'fa-linkedin'
             },
             {
-                info: '<a target="_" href="http://github.com/bogdandorca">GitHub</a>',
+                info: $sce.trustAsHtml('<a target="_" href="http://github.com/bogdandorca">GitHub</a>'),
                 icon: 'fa-github'
             }
         ]

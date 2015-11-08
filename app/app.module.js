@@ -1,4 +1,4 @@
-angular.module('app', ['ngRoute', 'ngAnimate']).config(function($routeProvider, $locationProvider){
+angular.module('app', ['ngRoute', 'ngAnimate', 'ngSanitize']).config(function($routeProvider, $locationProvider){
     $routeProvider
         .when('/', {
             controller: 'HomeCtrl',

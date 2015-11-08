@@ -15,7 +15,10 @@
     position: absolute;
     width: 100%;
   }
-  &.next-page {
+}
+
+.next-page {
+  .partial-wrapper {
     &.ng-enter {
       top: 100%;
     }
@@ -30,7 +33,9 @@
       top: -100%;
     }
   }
-  &.prev-page {
+}
+.prev-page {
+  .partial-wrapper {
     &.ng-enter {
       top: -100%;
     }
@@ -46,20 +51,6 @@
     }
   }
 }
-
-//.partial-wrapper.ng-enter {
-//  top: 100%;
-//}
-//.partial-wrapper.ng-enter-active {
-//  top: 0;
-//}
-//
-//.partial-wrapper.ng-leave {
-//  top: 0;
-//}
-//.partial-wrapper.ng-leave-active {
-//  top: -100%;
-//}
 
 
 
