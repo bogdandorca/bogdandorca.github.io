@@ -39,6 +39,9 @@
 .about-category-info {
   .category-title {
     font-weight: normal;
+    @media screen and (max-height: 720px){
+      font-size: $sub-heading-font-size-medium;
+    }
     @media screen and (max-width: 900px) {
       font-size: $sub-heading-font-size-medium;
     }
@@ -50,6 +53,12 @@
     font-family: $secondary-font-family;
     margin-top: 10px;
     text-align: justify;
+    @media screen and (max-height: 720px){
+      font-size: $body-font-size-medium;
+    }
+    @media screen and (max-height: 720px){
+      margin-top: 2px;
+    }
     @media screen and (max-width: 1200px){
       font-size: $body-font-size-medium;
     }

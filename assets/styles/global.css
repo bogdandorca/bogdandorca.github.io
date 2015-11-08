@@ -393,6 +393,9 @@ p {
 
 .about-category-info .category-title {
   font-weight: normal; }
+  @media screen and (max-height: 720px) {
+    .about-category-info .category-title {
+      font-size: 22.4px; } }
   @media screen and (max-width: 900px) {
     .about-category-info .category-title {
       font-size: 22.4px; } }
@@ -404,6 +407,12 @@ p {
   font-family: "Merriweather Sans", sans-serif;
   margin-top: 10px;
   text-align: justify; }
+  @media screen and (max-height: 720px) {
+    .about-category-info .category-description {
+      font-size: 14px; } }
+  @media screen and (max-height: 720px) {
+    .about-category-info .category-description {
+      margin-top: 2px; } }
   @media screen and (max-width: 1200px) {
     .about-category-info .category-description {
       font-size: 14px; } }
