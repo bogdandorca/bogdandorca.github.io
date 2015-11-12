@@ -34,6 +34,7 @@
     "karma": "*",
     "karma-jasmine": "*",
     "karma-phantomjs-launcher": "*",
+    "live-server": "^0.8.2",
     "lost": "^6.6.2",
     "main-bower-files": "*",
     "open": "*",

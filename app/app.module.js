@@ -1,4 +1,4 @@
-angular.module('app', ['ngRoute', 'ngAnimate', 'ngSanitize']).config(function($routeProvider, $locationProvider){
+angular.module('app', ['ngRoute', 'ngAnimate', 'ngSanitize']).config(function($routeProvider){
     $routeProvider
         .when('/', {
             controller: 'HomeCtrl',
@@ -19,5 +19,4 @@ angular.module('app', ['ngRoute', 'ngAnimate', 'ngSanitize']).config(function($r
         .otherwise({
             redirectTo: '/'
         });
-    $locationProvider.html5Mode(true);
 });
