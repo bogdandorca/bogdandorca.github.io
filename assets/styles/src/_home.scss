@@ -7,13 +7,29 @@
   @media screen and (max-width: 670px){
 	max-width: 100px;
   }
+  @media screen and (max-height: 500px){
+    max-width: 65px;
+  }
 }
 .contact-me-button {
   margin-top: 25px;
+  @media screen and (max-height: 500px){
+    margin-top: 15px;
+  }
 }
 
 .home-vertical-grid {
 	@media screen and (max-width: 670px){
 		padding: 0 2%;
 	}
+}
+.vertical-filler {
+  @media screen and (max-height: 550px){
+    display: none;
+  }
+}
+.home-bottom-grid {
+  @media screen and (max-height: 400px){
+    margin-top: 5%;
+  }
 }

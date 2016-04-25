@@ -3,6 +3,5 @@
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{bogdandorca.github.io node_modules}" />
     <file url="file://$PROJECT_DIR$/partials/contact.partial.html" libraries="{ECMAScript 6}" />
-    <file url="file://$PROJECT_DIR$/server.js" libraries="{ECMAScript 6}" />
   </component>
 </project>

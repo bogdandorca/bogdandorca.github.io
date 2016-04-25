@@ -1,4 +1,5 @@
 angular.module('app').controller('ContactCtrl', function($scope, $sce){
+    $scope.currentYear = moment().get('year');
     $scope.content = {
         pageTitle: 'Get in touch',
         contactInfo: [

@@ -94,10 +94,19 @@
   @media screen and (max-width: 900px){
     width: 100%;
   }
+  @media screen and (max-height: 570px){
+    width: 100%;
+  }
 }
 .partial-title-vertical-grid {
 	@media screen and (max-width: 900px){
 		height: auto;
 		margin-bottom: 15%;
 	}
+    @media screen and (max-height: 570px){
+      padding-top: 3%;
+    }
+    @media screen and (max-width: 900px) and (max-height: 550px){
+      margin-bottom: 5%;
+    }
 }

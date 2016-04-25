@@ -9,11 +9,17 @@
     @media screen and (max-width: 670px) and (min-height: 900px){
       margin-bottom: 100px;
     }
+    @media screen and (max-height: 550px){
+      width: 100%;
+    }
 }
 .about-category-icon-wrapper {
 	@media screen and (max-width: 670px){
 		display: none;
 	}
+    @media screen and (max-height: 600px){
+      width: calc(95%/7);
+    }
 }
 .about-category-icon {
   width: 70px;
@@ -48,6 +54,9 @@
     @media screen and (max-width: 360px) {
       font-size: $sub-heading-font-size-min;
     }
+    @media screen and (max-height: 550px){
+      font-size: 15px;
+    }
   }
   .category-description {
     font-family: $secondary-font-family;
@@ -68,6 +77,9 @@
     @media screen and (max-width: 360px){
       font-size: $body-font-size-min;
     }
+    @media screen and (max-height: 550px){
+      font-size: 12px;
+    }
   }
   @media screen and (max-width: 900px){
 	padding: 0 5%;
@@ -76,5 +88,9 @@
   @media screen and (max-width: 670px){
     text-align: center;
 	width: 100%;
+  }
+  @media screen and (max-height: 600px){
+    width: calc((95%/5)*4.4);
+    padding: 0 1%;
   }
 }

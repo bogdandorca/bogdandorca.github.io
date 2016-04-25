@@ -1,6 +1,9 @@
 .footer {
   background-color: $dark-color;
   color: $light-color;
+  @media screen and (max-height: 600px){
+    display: none;
+  }
 }
 .copyright {
   width: 100%;

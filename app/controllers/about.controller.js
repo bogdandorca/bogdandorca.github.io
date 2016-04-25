@@ -1,10 +1,14 @@
 angular.module('app').controller('AboutCtrl', function($scope){
+    var startDate = moment('1365406455', 'X');
+    var currentDate = moment();
+    $scope.yearsOfExperience = currentDate.diff(startDate, 'years');
+
     $scope.content = {
         pageTitle: 'A few things about myself',
         categories: [
             {
                 title: 'Experience',
-                description: 'I have been working as a web developer for the past 2 years. During this time I have worked with various companies, while also participating in collaborations, and taking on freelance projects whenever opportunity showed. I invested my free time in personal projects, aiming to develop my skill set in as many areas as I could. Many of said projects are available at GitHub.',
+                description: 'I have been working as a web developer for the past '+$scope.yearsOfExperience+' years. During this time I have worked with various companies, while also participating in collaborations, and taking on freelance projects whenever opportunity showed. I invested my free time in personal projects, aiming to develop my skill set in as many areas as I could. Many of said projects are available at GitHub.',
                 iconClass: 'fa-clock-o'
             },
             {
